@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: blue;
+}
+.topside {
+  background-image: url(img/wot-masthead-dark.jpg);
+  height: 500px;
+  background-size: cover;
+}
+
+.mobile-nav {
+
+}
+.mobile-nav-links{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.mobile-nav-link-item {
+  margin-left: 2em;
+}
+.mobile-nav-link {
+  text-decoration: none;
+  color: #000;
+  opacity: 0.4;
+  font-family: 'Lato', sans-serif;
+}
+
+.desktop-nav {
+padding-top: 50px;
+margin-left: 100px;
+
+}
+.logo {
+  float: left;
+  width: 150px;
+}
+
+.nav-links {
+float: right;
+list-style: none;
+display: flex;
+padding-right: 100px;
+}
+
+.nav-link-box {
+  margin-right: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  color: #F0F0F0;
+  font-weight: 500;
+}
+.nav-link:hover {
+  border-bottom: 5px solid #bdd436;
+
+}
+
+.bigwords {
+  display: flex;
+  flex-direction: column;
+  color: #F0F0F0;
+  height: 350px;
+  width: 100%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.digitalworkshop {
+  text-align: left;
+  padding-left: 20%;
+}
+
+#workshop {
+  font-size: 150px;
+  font-family: 'oswald';
+  line-height: 1;
+
+}
+.brightideas {
+}
+#solutions {
+  color: #ff803a;
+}
+#ideas {
+  color: #bdd436;
+}
+
+.brightideas::before {
+  display: inline-block;
+  height: 10px;
+  width: 100px;
+  background-color: #F0F0F0;
+  content: " ";
+  margin-right: 50px;
+
+}
+.brightideas::after {
+  display: inline-block;
+  height:10px;
+  width: 100px;
+  background-color: #F0F0F0;
+  content: " ";
+  margin-left: 50px;
+}
+
+.learnmorecontain {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.learnmore {
+  height: 40px;
+  width: 300px;
+  border-radius: 20px;
+  background-color: #bdd436;
+  color: #F0F0F0;
+}
+.floaty {
+  position: fixed;
+  height: 50px;
+  width: 150px;
+  border-radius: 5px;
+  bottom: 15px;
+  right: 15px;
+  color: #F0F0F0;
+  background-color: #bdd436;
+}
+
+@media screen and (min-width: 1000px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .desktop-nav {
+    display: none;
+  }
+}
