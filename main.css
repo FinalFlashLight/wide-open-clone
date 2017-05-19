@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: blue;
+  background-color: #fff;
 }
 .topside {
   background-image: url(img/wot-masthead-dark.jpg);
@@ -126,6 +126,42 @@ padding-right: 100px;
   background-color: #bdd436;
   color: #F0F0F0;
 }
+
+.speelbox {
+ background-color: #F0F0F0;
+ width: 100%;
+ text-align: center;
+ color: #6A787C;
+ padding-bottom: 30px;
+ padding-top: 30px;
+}
+
+.speel {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 28px;
+
+}
+
+.howItWorks {
+  font-style: 'Oswald';
+  font-size: 42px;
+}
+
+#works {
+  font-style: normal;
+  font-weight: bold;
+  color: #bdd436;
+}
+
+
+
+
+
+
+
+
+
 .floaty {
   position: fixed;
   height: 50px;
